@@ -12,53 +12,7 @@ import java.util.function.IntConsumer;
  */
 
 public class TaskTimer
-{   
-    // Limit number of words read.  Otherwise, the next task could be very sloooow.
-    static final int MAXCOUNT = 50_000;
-    
-    public static void task1() {
-
-    	TaskOne taskOneStart = new TaskOne();
-    	taskOneStart.run();
-
-    }
-    
-    public static void task2( ) {
-        // initialize: open the words file as InputStream
-    	
-    	TaskTwo taskTwoStart = new TaskTwo();
-    	taskTwoStart.run();
-    }
-    
-    public static void task3( ) {
-        // initialize: open the words file as InputStream
-    	TaskThree taskThreeStart = new TaskThree();
-    	taskThreeStart.run();
-    	
-    }
-    
-    public static void task4( ) {
-        // initialize
-    	TaskFour taskFourStart = new TaskFour();
-    	taskFourStart.run();
-    	
-    }
-    
-    public static void task5( ) {
-        // initialize
-    	TaskFive taskFiveStart = new TaskFive();
-    	taskFiveStart.run();
-    	
-    }
-    
-    public static void task6( ) {
-        // initialize
-    	TaskSix taskSixStart = new TaskSix();
-    	taskSixStart.run();
-    	
-    }
-        
-    
+{
     /** 
      * Define a customer Consumer class that computes <b>both</b> the average 
      * and count of values.
